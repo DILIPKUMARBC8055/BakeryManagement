@@ -1,0 +1,15 @@
+F:\Cheatsheet\SeniorBackendDev\SeniorBackendCsharpChallenge\BakeryApp.Infrastructure\obj\Debug\net8.0\BakeryApp.Infrastructure.csproj.AssemblyReference.cache
+F:\Cheatsheet\SeniorBackendDev\SeniorBackendCsharpChallenge\BakeryApp.Infrastructure\obj\Debug\net8.0\BakeryApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\Cheatsheet\SeniorBackendDev\SeniorBackendCsharpChallenge\BakeryApp.Infrastructure\obj\Debug\net8.0\BakeryApp.Infrastructure.AssemblyInfoInputs.cache
+F:\Cheatsheet\SeniorBackendDev\SeniorBackendCsharpChallenge\BakeryApp.Infrastructure\obj\Debug\net8.0\BakeryApp.Infrastructure.AssemblyInfo.cs
+F:\Cheatsheet\SeniorBackendDev\SeniorBackendCsharpChallenge\BakeryApp.Infrastructure\obj\Debug\net8.0\BakeryApp.Infrastructure.csproj.CoreCompileInputs.cache
+F:\Cheatsheet\SeniorBackendDev\SeniorBackendCsharpChallenge\BakeryApp.Infrastructure\bin\Debug\net8.0\BakeryApp.Infrastructure.deps.json
+F:\Cheatsheet\SeniorBackendDev\SeniorBackendCsharpChallenge\BakeryApp.Infrastructure\bin\Debug\net8.0\BakeryApp.Infrastructure.dll
+F:\Cheatsheet\SeniorBackendDev\SeniorBackendCsharpChallenge\BakeryApp.Infrastructure\bin\Debug\net8.0\BakeryApp.Infrastructure.pdb
+F:\Cheatsheet\SeniorBackendDev\SeniorBackendCsharpChallenge\BakeryApp.Infrastructure\bin\Debug\net8.0\BakeryApp.Core.dll
+F:\Cheatsheet\SeniorBackendDev\SeniorBackendCsharpChallenge\BakeryApp.Infrastructure\bin\Debug\net8.0\BakeryApp.Core.pdb
+F:\Cheatsheet\SeniorBackendDev\SeniorBackendCsharpChallenge\BakeryApp.Infrastructure\obj\Debug\net8.0\BakeryAp.11B5B386.Up2Date
+F:\Cheatsheet\SeniorBackendDev\SeniorBackendCsharpChallenge\BakeryApp.Infrastructure\obj\Debug\net8.0\BakeryApp.Infrastructure.dll
+F:\Cheatsheet\SeniorBackendDev\SeniorBackendCsharpChallenge\BakeryApp.Infrastructure\obj\Debug\net8.0\refint\BakeryApp.Infrastructure.dll
+F:\Cheatsheet\SeniorBackendDev\SeniorBackendCsharpChallenge\BakeryApp.Infrastructure\obj\Debug\net8.0\BakeryApp.Infrastructure.pdb
+F:\Cheatsheet\SeniorBackendDev\SeniorBackendCsharpChallenge\BakeryApp.Infrastructure\obj\Debug\net8.0\ref\BakeryApp.Infrastructure.dll

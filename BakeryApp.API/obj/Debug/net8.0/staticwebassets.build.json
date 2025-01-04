@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "qeyz30SNsS7mzys3M5GMdNneyEVyS0Zvo30N4a05Vis=",
+  "Source": "BakeryApp.API",
+  "BasePath": "_content/BakeryApp.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

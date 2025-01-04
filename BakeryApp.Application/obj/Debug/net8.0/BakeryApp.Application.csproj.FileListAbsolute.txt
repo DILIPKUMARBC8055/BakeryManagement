@@ -1,0 +1,15 @@
+F:\Cheatsheet\SeniorBackendDev\SeniorBackendCsharpChallenge\BakeryApp.Application\bin\Debug\net8.0\BakeryApp.Application.deps.json
+F:\Cheatsheet\SeniorBackendDev\SeniorBackendCsharpChallenge\BakeryApp.Application\bin\Debug\net8.0\BakeryApp.Application.dll
+F:\Cheatsheet\SeniorBackendDev\SeniorBackendCsharpChallenge\BakeryApp.Application\bin\Debug\net8.0\BakeryApp.Application.pdb
+F:\Cheatsheet\SeniorBackendDev\SeniorBackendCsharpChallenge\BakeryApp.Application\bin\Debug\net8.0\BakeryApp.Core.dll
+F:\Cheatsheet\SeniorBackendDev\SeniorBackendCsharpChallenge\BakeryApp.Application\bin\Debug\net8.0\BakeryApp.Core.pdb
+F:\Cheatsheet\SeniorBackendDev\SeniorBackendCsharpChallenge\BakeryApp.Application\obj\Debug\net8.0\BakeryApp.Application.csproj.AssemblyReference.cache
+F:\Cheatsheet\SeniorBackendDev\SeniorBackendCsharpChallenge\BakeryApp.Application\obj\Debug\net8.0\BakeryApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\Cheatsheet\SeniorBackendDev\SeniorBackendCsharpChallenge\BakeryApp.Application\obj\Debug\net8.0\BakeryApp.Application.AssemblyInfoInputs.cache
+F:\Cheatsheet\SeniorBackendDev\SeniorBackendCsharpChallenge\BakeryApp.Application\obj\Debug\net8.0\BakeryApp.Application.AssemblyInfo.cs
+F:\Cheatsheet\SeniorBackendDev\SeniorBackendCsharpChallenge\BakeryApp.Application\obj\Debug\net8.0\BakeryApp.Application.csproj.CoreCompileInputs.cache
+F:\Cheatsheet\SeniorBackendDev\SeniorBackendCsharpChallenge\BakeryApp.Application\obj\Debug\net8.0\BakeryAp.62343522.Up2Date
+F:\Cheatsheet\SeniorBackendDev\SeniorBackendCsharpChallenge\BakeryApp.Application\obj\Debug\net8.0\BakeryApp.Application.dll
+F:\Cheatsheet\SeniorBackendDev\SeniorBackendCsharpChallenge\BakeryApp.Application\obj\Debug\net8.0\refint\BakeryApp.Application.dll
+F:\Cheatsheet\SeniorBackendDev\SeniorBackendCsharpChallenge\BakeryApp.Application\obj\Debug\net8.0\BakeryApp.Application.pdb
+F:\Cheatsheet\SeniorBackendDev\SeniorBackendCsharpChallenge\BakeryApp.Application\obj\Debug\net8.0\ref\BakeryApp.Application.dll

@@ -1,0 +1,921 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\commands\\ordercommand\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\commands\\ordercommand\\createordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\response\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\response\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EAB363-E8D3-417B-8F05-B48DDDB3CCD1}|BakeryApp.Core\\BakeryApp.Core.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.core\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EAB363-E8D3-417B-8F05-B48DDDB3CCD1}|BakeryApp.Core\\BakeryApp.Core.csproj|solutionrelative:bakeryapp.core\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0ACB331-0F51-4295-80E4-BACCE73A990C}|BakeryApp.Infrastructure\\BakeryApp.Infrastructure.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.infrastructure\\data\\orderrepositary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0ACB331-0F51-4295-80E4-BACCE73A990C}|BakeryApp.Infrastructure\\BakeryApp.Infrastructure.csproj|solutionrelative:bakeryapp.infrastructure\\data\\orderrepositary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\handlers\\orderhandlers\\commandhandler\\createorderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\handlers\\orderhandlers\\commandhandler\\createorderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3853FD39-1871-4566-8884-E7AA77F9796F}|BakeryApp.API\\BakeryApp.API.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3853FD39-1871-4566-8884-E7AA77F9796F}|BakeryApp.API\\BakeryApp.API.csproj|solutionrelative:bakeryapp.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0ACB331-0F51-4295-80E4-BACCE73A990C}|BakeryApp.Infrastructure\\BakeryApp.Infrastructure.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.infrastructure\\data\\userrepositary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0ACB331-0F51-4295-80E4-BACCE73A990C}|BakeryApp.Infrastructure\\BakeryApp.Infrastructure.csproj|solutionrelative:bakeryapp.infrastructure\\data\\userrepositary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3853FD39-1871-4566-8884-E7AA77F9796F}|BakeryApp.API\\BakeryApp.API.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3853FD39-1871-4566-8884-E7AA77F9796F}|BakeryApp.API\\BakeryApp.API.csproj|solutionrelative:bakeryapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0ACB331-0F51-4295-80E4-BACCE73A990C}|BakeryApp.Infrastructure\\BakeryApp.Infrastructure.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.infrastructure\\data\\litedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0ACB331-0F51-4295-80E4-BACCE73A990C}|BakeryApp.Infrastructure\\BakeryApp.Infrastructure.csproj|solutionrelative:bakeryapp.infrastructure\\data\\litedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0ACB331-0F51-4295-80E4-BACCE73A990C}|BakeryApp.Infrastructure\\BakeryApp.Infrastructure.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.infrastructure\\data\\bakeryitemrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0ACB331-0F51-4295-80E4-BACCE73A990C}|BakeryApp.Infrastructure\\BakeryApp.Infrastructure.csproj|solutionrelative:bakeryapp.infrastructure\\data\\bakeryitemrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EAB363-E8D3-417B-8F05-B48DDDB3CCD1}|BakeryApp.Core\\BakeryApp.Core.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.core\\repositary\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EAB363-E8D3-417B-8F05-B48DDDB3CCD1}|BakeryApp.Core\\BakeryApp.Core.csproj|solutionrelative:bakeryapp.core\\repositary\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EAB363-E8D3-417B-8F05-B48DDDB3CCD1}|BakeryApp.Core\\BakeryApp.Core.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.core\\repositary\\iorderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EAB363-E8D3-417B-8F05-B48DDDB3CCD1}|BakeryApp.Core\\BakeryApp.Core.csproj|solutionrelative:bakeryapp.core\\repositary\\iorderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EAB363-E8D3-417B-8F05-B48DDDB3CCD1}|BakeryApp.Core\\BakeryApp.Core.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.core\\repositary\\ibakeryitemrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EAB363-E8D3-417B-8F05-B48DDDB3CCD1}|BakeryApp.Core\\BakeryApp.Core.csproj|solutionrelative:bakeryapp.core\\repositary\\ibakeryitemrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EAB363-E8D3-417B-8F05-B48DDDB3CCD1}|BakeryApp.Core\\BakeryApp.Core.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EAB363-E8D3-417B-8F05-B48DDDB3CCD1}|BakeryApp.Core\\BakeryApp.Core.csproj|solutionrelative:bakeryapp.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3EAB363-E8D3-417B-8F05-B48DDDB3CCD1}|BakeryApp.Core\\BakeryApp.Core.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.core\\entities\\bakeryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3EAB363-E8D3-417B-8F05-B48DDDB3CCD1}|BakeryApp.Core\\BakeryApp.Core.csproj|solutionrelative:bakeryapp.core\\entities\\bakeryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\response\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\response\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\response\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\response\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\response\\bakeryitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\response\\bakeryitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\response\\bakeryitematorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\response\\bakeryitematorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\response\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\response\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\queries\\userqueries\\getuserbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\queries\\userqueries\\getuserbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\queries\\userqueries\\getallusersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\queries\\userqueries\\getallusersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\queries\\orderqueries\\getorderbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\queries\\orderqueries\\getorderbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\queries\\orderqueries\\getallordersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\queries\\orderqueries\\getallordersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\queries\\bakeryitemqueries\\getitembyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\queries\\bakeryitemqueries\\getitembyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\queries\\bakeryitemqueries\\getallitemsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\queries\\bakeryitemqueries\\getallitemsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\mappers\\bakerymappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\mappers\\bakerymappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\mappers\\bakerymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\mappers\\bakerymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\handlers\\userhandler\\query\\getuserbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\handlers\\userhandler\\query\\getuserbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\handlers\\userhandler\\query\\getallusersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\handlers\\userhandler\\query\\getallusersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\handlers\\userhandler\\command\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\handlers\\userhandler\\command\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\handlers\\userhandler\\command\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\handlers\\userhandler\\command\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\handlers\\orderhandlers\\queryhandler\\getorderbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\handlers\\orderhandlers\\queryhandler\\getorderbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\handlers\\orderhandlers\\queryhandler\\getallordershandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\handlers\\orderhandlers\\queryhandler\\getallordershandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\handlers\\orderhandlers\\commandhandler\\updateorderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\handlers\\orderhandlers\\commandhandler\\updateorderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\handlers\\orderhandlers\\commandhandler\\deleteorderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\handlers\\orderhandlers\\commandhandler\\deleteorderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\handlers\\bakeryitemshandler\\queryhandler\\getitembyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\handlers\\bakeryitemshandler\\queryhandler\\getitembyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\handlers\\bakeryitemshandler\\queryhandler\\getallitemsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\handlers\\bakeryitemshandler\\queryhandler\\getallitemsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\handlers\\bakeryitemshandler\\commandhandler\\updateitemcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\handlers\\bakeryitemshandler\\commandhandler\\updateitemcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\handlers\\bakeryitemshandler\\commandhandler\\deleteitemcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\handlers\\bakeryitemshandler\\commandhandler\\deleteitemcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\handlers\\bakeryitemshandler\\commandhandler\\createitemcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\handlers\\bakeryitemshandler\\commandhandler\\createitemcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\commands\\usercommand\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\commands\\usercommand\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\commands\\usercommand\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\commands\\usercommand\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\commands\\ordercommand\\updateordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\commands\\ordercommand\\updateordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\commands\\ordercommand\\deleteordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\commands\\ordercommand\\deleteordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\commands\\itemcommand\\updateitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\commands\\itemcommand\\updateitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\commands\\itemcommand\\deleteitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\commands\\itemcommand\\deleteitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.application\\commands\\itemcommand\\createitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C0AFA44-252B-40DA-8F46-AFB97FAAAB5F}|BakeryApp.Application\\BakeryApp.Application.csproj|solutionrelative:bakeryapp.application\\commands\\itemcommand\\createitemcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3853FD39-1871-4566-8884-E7AA77F9796F}|BakeryApp.API\\BakeryApp.API.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3853FD39-1871-4566-8884-E7AA77F9796F}|BakeryApp.API\\BakeryApp.API.csproj|solutionrelative:bakeryapp.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3853FD39-1871-4566-8884-E7AA77F9796F}|BakeryApp.API\\BakeryApp.API.csproj|f:\\cheatsheet\\seniorbackenddev\\seniorbackendcsharpchallenge\\bakeryapp.api\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3853FD39-1871-4566-8884-E7AA77F9796F}|BakeryApp.API\\BakeryApp.API.csproj|solutionrelative:bakeryapp.api\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39ACEFE1-B668-4287-858A-C8A1E3C38E06}|Solution Items{39ACEFE1-B668-4287-858A-C8A1E3C38E06}|F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\Instructions.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{39ACEFE1-B668-4287-858A-C8A1E3C38E06}|Solution Items{39ACEFE1-B668-4287-858A-C8A1E3C38E06}|solutionrelative:Instructions.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateOrderCommand.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Commands\\OrderCommand\\CreateOrderCommand.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Commands\\OrderCommand\\CreateOrderCommand.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Commands\\OrderCommand\\CreateOrderCommand.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Commands\\OrderCommand\\CreateOrderCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:24:46.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderRepositary.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Infrastructure\\Data\\OrderRepositary.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Infrastructure\\Data\\OrderRepositary.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Infrastructure\\Data\\OrderRepositary.cs",
+              "RelativeToolTip": "BakeryApp.Infrastructure\\Data\\OrderRepositary.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAiwGAAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:28:00.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Response\\OrderDto.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Response\\OrderDto.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Response\\OrderDto.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Response\\OrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:26:38.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Order.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Core\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Core\\Entities\\Order.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Core\\Entities\\Order.cs",
+              "RelativeToolTip": "BakeryApp.Core\\Entities\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:27:30.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateOrderHandler.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Handlers\\OrderHandlers\\CommandHandler\\CreateOrderHandler.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Handlers\\OrderHandlers\\CommandHandler\\CreateOrderHandler.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Handlers\\OrderHandlers\\CommandHandler\\CreateOrderHandler.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Handlers\\OrderHandlers\\CommandHandler\\CreateOrderHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:25:22.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.API\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "BakeryApp.API\\Controllers\\OrderController.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.API\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "BakeryApp.API\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAA9wAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:21:43.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.API\\Program.cs",
+              "RelativeDocumentMoniker": "BakeryApp.API\\Program.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.API\\Program.cs",
+              "RelativeToolTip": "BakeryApp.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:23:40.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRepositary.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Infrastructure\\Data\\UserRepositary.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Infrastructure\\Data\\UserRepositary.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Infrastructure\\Data\\UserRepositary.cs",
+              "RelativeToolTip": "BakeryApp.Infrastructure\\Data\\UserRepositary.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAmwDYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:28:42.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserRepo.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Core\\Repositary\\IUserRepo.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Core\\Repositary\\IUserRepo.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Core\\Repositary\\IUserRepo.cs",
+              "RelativeToolTip": "BakeryApp.Core\\Repositary\\IUserRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:27:39.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BakeryItemRepo.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Infrastructure\\Data\\BakeryItemRepo.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Infrastructure\\Data\\BakeryItemRepo.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Infrastructure\\Data\\BakeryItemRepo.cs",
+              "RelativeToolTip": "BakeryApp.Infrastructure\\Data\\BakeryItemRepo.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAAAgAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:27:43.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LiteDbContext.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Infrastructure\\Data\\LiteDbContext.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Infrastructure\\Data\\LiteDbContext.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Infrastructure\\Data\\LiteDbContext.cs",
+              "RelativeToolTip": "BakeryApp.Infrastructure\\Data\\LiteDbContext.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAIwE8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:27:50.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IOrderRepo.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Core\\Repositary\\IOrderRepo.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Core\\Repositary\\IOrderRepo.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Core\\Repositary\\IOrderRepo.cs",
+              "RelativeToolTip": "BakeryApp.Core\\Repositary\\IOrderRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:27:38.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IBakeryItemRepo.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Core\\Repositary\\IBakeryItemRepo.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Core\\Repositary\\IBakeryItemRepo.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Core\\Repositary\\IBakeryItemRepo.cs",
+              "RelativeToolTip": "BakeryApp.Core\\Repositary\\IBakeryItemRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:27:36.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Core\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Core\\Entities\\User.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Core\\Entities\\User.cs",
+              "RelativeToolTip": "BakeryApp.Core\\Entities\\User.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:27:32.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BakeryItem.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Core\\Entities\\BakeryItem.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Core\\Entities\\BakeryItem.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Core\\Entities\\BakeryItem.cs",
+              "RelativeToolTip": "BakeryApp.Core\\Entities\\BakeryItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:27:29.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Services\\TokenService.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Services\\TokenService.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Services\\TokenService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:27:22.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PasswordService.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Services\\PasswordService.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Services\\PasswordService.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Services\\PasswordService.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Services\\PasswordService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:26:43.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Response\\UserDto.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Response\\UserDto.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Response\\UserDto.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Response\\UserDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:26:40.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Response\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Response\\LoginResponse.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Response\\LoginResponse.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Response\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:26:37.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BakeryItemDto.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Response\\BakeryItemDto.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Response\\BakeryItemDto.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Response\\BakeryItemDto.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Response\\BakeryItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:26:35.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BakeryItemAtOrder.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Response\\BakeryItemAtOrder.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Response\\BakeryItemAtOrder.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Response\\BakeryItemAtOrder.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Response\\BakeryItemAtOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:26:33.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Response\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Response\\ApiResponse.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Response\\ApiResponse.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Response\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:26:31.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GetUserByIdQuery.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Queries\\UserQueries\\GetUserByIdQuery.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Queries\\UserQueries\\GetUserByIdQuery.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Queries\\UserQueries\\GetUserByIdQuery.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Queries\\UserQueries\\GetUserByIdQuery.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:26:27.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GetAllUsersQuery.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Queries\\UserQueries\\GetAllUsersQuery.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Queries\\UserQueries\\GetAllUsersQuery.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Queries\\UserQueries\\GetAllUsersQuery.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Queries\\UserQueries\\GetAllUsersQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:26:26.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GetOrderByIdQuery.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Queries\\OrderQueries\\GetOrderByIdQuery.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Queries\\OrderQueries\\GetOrderByIdQuery.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Queries\\OrderQueries\\GetOrderByIdQuery.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Queries\\OrderQueries\\GetOrderByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:26:22.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GetAllOrdersQuery.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Queries\\OrderQueries\\GetAllOrdersQuery.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Queries\\OrderQueries\\GetAllOrdersQuery.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Queries\\OrderQueries\\GetAllOrdersQuery.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Queries\\OrderQueries\\GetAllOrdersQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:26:21.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GetItemByIdQuery.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Queries\\BakeryItemQueries\\GetItemByIdQuery.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Queries\\BakeryItemQueries\\GetItemByIdQuery.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Queries\\BakeryItemQueries\\GetItemByIdQuery.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Queries\\BakeryItemQueries\\GetItemByIdQuery.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:26:17.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "GetAllItemsQuery.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Queries\\BakeryItemQueries\\GetAllItemsQuery.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Queries\\BakeryItemQueries\\GetAllItemsQuery.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Queries\\BakeryItemQueries\\GetAllItemsQuery.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Queries\\BakeryItemQueries\\GetAllItemsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:26:15.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BakeryMappingProfile.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Mappers\\BakeryMappingProfile.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Mappers\\BakeryMappingProfile.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Mappers\\BakeryMappingProfile.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Mappers\\BakeryMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:26:11.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BakeryMapper.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Mappers\\BakeryMapper.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Mappers\\BakeryMapper.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Mappers\\BakeryMapper.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Mappers\\BakeryMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:26:09.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "GetUserByIdQueryHandler.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Handlers\\UserHandler\\Query\\GetUserByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Handlers\\UserHandler\\Query\\GetUserByIdQueryHandler.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Handlers\\UserHandler\\Query\\GetUserByIdQueryHandler.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Handlers\\UserHandler\\Query\\GetUserByIdQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:26:02.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "GetAllUsersQueryHandler.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Handlers\\UserHandler\\Query\\GetAllUsersQueryHandler.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Handlers\\UserHandler\\Query\\GetAllUsersQueryHandler.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Handlers\\UserHandler\\Query\\GetAllUsersQueryHandler.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Handlers\\UserHandler\\Query\\GetAllUsersQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:25:59.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LoginCommandHandler.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Handlers\\UserHandler\\Command\\LoginCommandHandler.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Handlers\\UserHandler\\Command\\LoginCommandHandler.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Handlers\\UserHandler\\Command\\LoginCommandHandler.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Handlers\\UserHandler\\Command\\LoginCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:25:45.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CreateUserCommandHandler.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Handlers\\UserHandler\\Command\\CreateUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Handlers\\UserHandler\\Command\\CreateUserCommandHandler.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Handlers\\UserHandler\\Command\\CreateUserCommandHandler.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Handlers\\UserHandler\\Command\\CreateUserCommandHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:25:35.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "GetOrderByIdHandler.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Handlers\\OrderHandlers\\QueryHandler\\GetOrderByIdHandler.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Handlers\\OrderHandlers\\QueryHandler\\GetOrderByIdHandler.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Handlers\\OrderHandlers\\QueryHandler\\GetOrderByIdHandler.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Handlers\\OrderHandlers\\QueryHandler\\GetOrderByIdHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:25:31.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "GetAllOrdersHandler.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Handlers\\OrderHandlers\\QueryHandler\\GetAllOrdersHandler.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Handlers\\OrderHandlers\\QueryHandler\\GetAllOrdersHandler.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Handlers\\OrderHandlers\\QueryHandler\\GetAllOrdersHandler.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Handlers\\OrderHandlers\\QueryHandler\\GetAllOrdersHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:25:30.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UpdateOrderHandler.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Handlers\\OrderHandlers\\CommandHandler\\UpdateOrderHandler.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Handlers\\OrderHandlers\\CommandHandler\\UpdateOrderHandler.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Handlers\\OrderHandlers\\CommandHandler\\UpdateOrderHandler.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Handlers\\OrderHandlers\\CommandHandler\\UpdateOrderHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:25:27.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DeleteOrderHandler.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Handlers\\OrderHandlers\\CommandHandler\\DeleteOrderHandler.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Handlers\\OrderHandlers\\CommandHandler\\DeleteOrderHandler.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Handlers\\OrderHandlers\\CommandHandler\\DeleteOrderHandler.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Handlers\\OrderHandlers\\CommandHandler\\DeleteOrderHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:25:25.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "GetItemByIdQueryHandler.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Handlers\\BakeryItemsHandler\\QueryHandler\\GetItemByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Handlers\\BakeryItemsHandler\\QueryHandler\\GetItemByIdQueryHandler.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Handlers\\BakeryItemsHandler\\QueryHandler\\GetItemByIdQueryHandler.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Handlers\\BakeryItemsHandler\\QueryHandler\\GetItemByIdQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:25:19.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "GetAllItemsQueryHandler.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Handlers\\BakeryItemsHandler\\QueryHandler\\GetAllItemsQueryHandler.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Handlers\\BakeryItemsHandler\\QueryHandler\\GetAllItemsQueryHandler.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Handlers\\BakeryItemsHandler\\QueryHandler\\GetAllItemsQueryHandler.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Handlers\\BakeryItemsHandler\\QueryHandler\\GetAllItemsQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:25:17.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UpdateItemCommandHandler.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Handlers\\BakeryItemsHandler\\CommandHandler\\UpdateItemCommandHandler.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Handlers\\BakeryItemsHandler\\CommandHandler\\UpdateItemCommandHandler.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Handlers\\BakeryItemsHandler\\CommandHandler\\UpdateItemCommandHandler.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Handlers\\BakeryItemsHandler\\CommandHandler\\UpdateItemCommandHandler.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:25:13.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DeleteItemCommandHandler.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Handlers\\BakeryItemsHandler\\CommandHandler\\DeleteItemCommandHandler.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Handlers\\BakeryItemsHandler\\CommandHandler\\DeleteItemCommandHandler.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Handlers\\BakeryItemsHandler\\CommandHandler\\DeleteItemCommandHandler.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Handlers\\BakeryItemsHandler\\CommandHandler\\DeleteItemCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:25:11.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CreateItemCommandHandler.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Handlers\\BakeryItemsHandler\\CommandHandler\\CreateItemCommandHandler.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Handlers\\BakeryItemsHandler\\CommandHandler\\CreateItemCommandHandler.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Handlers\\BakeryItemsHandler\\CommandHandler\\CreateItemCommandHandler.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Handlers\\BakeryItemsHandler\\CommandHandler\\CreateItemCommandHandler.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:25:08.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "LoginCommand.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Commands\\UserCommand\\LoginCommand.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Commands\\UserCommand\\LoginCommand.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Commands\\UserCommand\\LoginCommand.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Commands\\UserCommand\\LoginCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:25:02.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CreateUserCommand.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Commands\\UserCommand\\CreateUserCommand.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Commands\\UserCommand\\CreateUserCommand.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Commands\\UserCommand\\CreateUserCommand.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Commands\\UserCommand\\CreateUserCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:24:58.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "UpdateOrderCommand.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Commands\\OrderCommand\\UpdateOrderCommand.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Commands\\OrderCommand\\UpdateOrderCommand.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Commands\\OrderCommand\\UpdateOrderCommand.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Commands\\OrderCommand\\UpdateOrderCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:24:54.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "DeleteOrderCommand.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Commands\\OrderCommand\\DeleteOrderCommand.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Commands\\OrderCommand\\DeleteOrderCommand.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Commands\\OrderCommand\\DeleteOrderCommand.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Commands\\OrderCommand\\DeleteOrderCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:24:53.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "UpdateItemCommand.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Commands\\ItemCommand\\UpdateItemCommand.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Commands\\ItemCommand\\UpdateItemCommand.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Commands\\ItemCommand\\UpdateItemCommand.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Commands\\ItemCommand\\UpdateItemCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:24:38.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "DeleteItemCommand.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Commands\\ItemCommand\\DeleteItemCommand.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Commands\\ItemCommand\\DeleteItemCommand.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Commands\\ItemCommand\\DeleteItemCommand.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Commands\\ItemCommand\\DeleteItemCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:24:36.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CreateItemCommand.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Commands\\ItemCommand\\CreateItemCommand.cs",
+              "RelativeDocumentMoniker": "BakeryApp.Application\\Commands\\ItemCommand\\CreateItemCommand.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.Application\\Commands\\ItemCommand\\CreateItemCommand.cs",
+              "RelativeToolTip": "BakeryApp.Application\\Commands\\ItemCommand\\CreateItemCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:24:26.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "BakeryApp.API\\Controllers\\UserController.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "BakeryApp.API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:22:02.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ItemsController.cs",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.API\\Controllers\\ItemsController.cs",
+              "RelativeDocumentMoniker": "BakeryApp.API\\Controllers\\ItemsController.cs",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\BakeryApp.API\\Controllers\\ItemsController.cs",
+              "RelativeToolTip": "BakeryApp.API\\Controllers\\ItemsController.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:21:22.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Instructions.txt",
+              "DocumentMoniker": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\Instructions.txt",
+              "RelativeDocumentMoniker": "Instructions.txt",
+              "ToolTip": "F:\\Cheatsheet\\SeniorBackendDev\\SeniorBackendCsharpChallenge\\Instructions.txt",
+              "RelativeToolTip": "Instructions.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-08T12:21:07.288Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
